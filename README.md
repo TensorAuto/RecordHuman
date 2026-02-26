@@ -106,6 +106,15 @@ for frame in data["frames"]:
         right_rotations = right[:, 3:]
 ```
 
+## Training with OpenTau
+
+To convert data collected by this app into [LeRobot](https://github.com/huggingface/lerobot) format and train vision-language-action (VLA) models, see the **[OpenTau](https://github.com/TensorAuto/OpenTau)** documentation:
+
+- **Repository:** [https://github.com/TensorAuto/OpenTau](https://github.com/TensorAuto/OpenTau)
+- **Docs:** [opentau.readthedocs.io](https://opentau.readthedocs.io/)
+
+OpenTau is Tensor’s training toolchain for VLA models and uses LeRobot datasets for training. Use its docs and tooling to turn your RecordHuman JSON recordings into a format suitable for training with VLAs.
+
 ## Building from Source
 
 ### Requirements
