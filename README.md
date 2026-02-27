@@ -1,10 +1,10 @@
 # RecordHuman
 
-<p align="center">
-  <video src="media/recordhuman_example.mp4" autoplay loop muted playsinline></video>
-</p>
-
 A VR app for PICO headsets that records human hand poses through passthrough cameras for robot learning (imitation learning, teleoperation, etc.).
+
+<div align="center">
+  <img src="./media/recordhuman_example.webp" width="640px" alt="RecordHuman Demo">
+</div>
 
 ## Features
 
